@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <title>My Academic Portfolio</title>
+</head>
+<body>
+    <header class="hero">
+        <img src="mephoto.png" alt="My Photo" class="squircle">
+        <h1>[Your Name]</h1>
+        <p>shogostarr@math.byu.edu</p>
+    </header>
+
+    <section class="bio">
+        <h2>About Me</h2>
+        <p>I am a dedicated math student with a passion for creative expression. Beyond the classroom, I explore my interests in graphic design and high-quality video editing, blending analytical thinking with digital artistry.</p>
+    </section>
+
+    <section class="robotics">
+        <h2>Robotics and Arduino Experience</h2>
+        <div class="video-grid">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+            </div>
+    </section>
+
+    <section class="contact">
+        <h2>Let's Connect</h2>
+        <p>I am available to assist with technology purchase advice, graphic design projects, and content creation. Feel free to reach out!</p>
+    </section>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        }
+    </script>
+</body>
+</html>
