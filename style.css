@@ -1,0 +1,34 @@
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+    background: #f8f8f8;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Squircle Profile Photo */
+.squircle {
+    width: 200px;
+    height: 200px;
+    border-radius: 35%; /* Creates the rounded squircle effect */
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Bio Section */
+.bio { 
+    background-color: #0b3d0b; 
+    color: white; 
+    padding: 60px; 
+    text-align: center; 
+}
+
+.content { padding: 40px; }
